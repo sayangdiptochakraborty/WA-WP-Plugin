@@ -1,0 +1,206 @@
+/*
+ * All the CSS for the public facing functionality
+ * of the plugin should be included here.
+ */
+
+/* For Bottom Left Position*/
+ a.wac-stickytext-br {
+     width: auto;
+     max-width: 500px;
+     height: 40px;
+     line-height: 40px;
+     background-color: #45a147;
+     position: fixed;
+     right: 30px;
+     bottom: 0;
+     z-index: 99999;
+     color: white;
+     text-align: left;
+     padding: 0 10px 0 20px;
+     font-size: 15px;
+     -webkit-border-top-left-radius: 3px;
+     -webkit-border-top-right-radius: 3px;
+     -moz-border-top-left-radius: 3px;
+     -moz-border-top-right-radius: 3px;
+     border-top-left-radius: 3px;
+     border-top-right-radius: 3px;
+ }
+
+ .wac-stickytext-br .wac-wa-br {
+     height: 22px;
+     padding: 0;
+     text-align: right;
+     margin-left: 10px;
+     float: right;
+     display: inline-block;
+ }
+
+ .wac-wa-br {
+     background: url(../img/wa.png);
+     width: 35px;
+     height: 35px;
+     background-size: contain;
+     margin: 9px auto;
+     background-repeat: no-repeat;
+ }
+
+/* For Top Right Position*/
+a.wac-stickytext-tr {
+    width: auto;
+    max-width: 500px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #45a147;
+    position: fixed;
+    right: 30px;
+    top:  0;
+    z-index: 99999;
+    color: white;
+    text-align: left;
+    padding: 0 10px 0 20px;
+    font-size: 15px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-bottom-left-radius: 3px;
+    -moz-border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.wac-stickytext-tr .wac-wa-tr {
+    height: 22px;
+    padding: 0;
+    text-align: right;
+    margin-left: 10px;
+    float: right;
+    display: inline-block;
+}
+
+.wac-wa-tr {
+    background: url(../img/wa.png);
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    margin: 9px auto;
+    background-repeat: no-repeat;
+}
+
+/* For Bottom Left Position*/
+a.wac-stickytext-bl {
+    width: auto;
+    max-width: 500px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #45a147;
+    position: fixed;
+    left: 30px;
+    bottom:  0;
+    z-index: 99999;
+    color: white;
+    text-align: left;
+    padding: 0 10px 0 20px;
+    font-size: 15px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-top-left-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.wac-stickytext-bl .wac-wa-bl {
+    height: 22px;
+    padding: 0;
+    text-align: right;
+    margin-left: 10px;
+    float: right;
+    display: inline-block;
+}
+
+.wac-wa-bl {
+    background: url(../img/wa.png);
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    margin: 9px auto;
+    background-repeat: no-repeat;
+}
+
+/* For Top Left Position*/
+a.wac-stickytext-tl {
+    width: auto;
+    max-width: 500px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #45a147;
+    position: fixed;
+    left: 30px;
+    top:  0;
+    z-index: 99999;
+    color: white;
+    text-align: left;
+    padding: 0 10px 0 20px;
+    font-size: 15px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-bottom-left-radius: 3px;
+    -moz-border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.wac-stickytext-tl .wac-wa-tl {
+    height: 22px;
+    padding: 0;
+    text-align: right;
+    margin-left: 10px;
+    float: right;
+    display: inline-block;
+}
+
+.wac-wa-tl {
+    background: url(../img/wa.png);
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    margin: 9px auto;
+    background-repeat: no-repeat;
+}
+
+/* For Middle Right Position*/
+a.wac-stickytext-mr {
+    width: auto;
+    max-width: 500px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #45a147;
+    position: fixed;
+    right: 30px;
+    top:  50%;
+    z-index: 99999;
+    color: white;
+    text-align: left;
+    padding: 0 10px 0 20px;
+    font-size: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.wac-stickytext-mr .wac-wa-mr {
+    height: 22px;
+    padding: 0;
+    text-align: right;
+    margin-left: 10px;
+    float: right;
+    display: inline-block;
+}
+
+.wac-wa-mr {
+    background: url(../img/wa.png);
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    margin: 9px auto;
+    background-repeat: no-repeat;
+}
